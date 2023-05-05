@@ -1,0 +1,1 @@
+default: type_promotion exercise var_decl_and_assign celcius multivar
