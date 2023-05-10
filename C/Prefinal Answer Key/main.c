@@ -155,7 +155,7 @@ void displayVendingMachine(VendingMachine vm) {
 		}else if (vm.shelves[i] == true){
 			
 			for (j = 0; j < MAX_ITEM; j++){
-				if (vm.rackItems[i].itemCount == j){
+				if (vm.rackItems[i].itemCount >= j){
 					break;
 				}
 				char name[255];
